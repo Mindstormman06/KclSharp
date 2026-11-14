@@ -22,7 +22,7 @@ public struct KclPrism
 }
 
 /// <summary>A Wii KCL collision file: triangles stored as prisms over shared positions and normals, with an octree.</summary>
-public sealed class KclFile
+public sealed partial class KclFile
 {
     private const int HeaderSize = 0x38;
     private const int PrismSize = 0x10;
